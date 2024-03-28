@@ -42,7 +42,9 @@
 		let listItems = document.querySelectorAll("ul > li").length;
 		let dateTime = new Date().toLocaleString();
 		document.getElementByID("URL").innerHTML = fileURL;
-		
+		document.getElementById("items").innerHTML = listItems;
+		document.getElementById("time").innerHTML = dateTime;
+
 	}
 
 	
